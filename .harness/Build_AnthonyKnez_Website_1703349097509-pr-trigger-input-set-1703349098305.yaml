@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AnthonyKnez_Website_1703349097509-pr-trigger-input-set
+  identifier: Build_AnthonyKnez_Website_1703349097509prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AnthonyKnez_Website_1703349097509
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
